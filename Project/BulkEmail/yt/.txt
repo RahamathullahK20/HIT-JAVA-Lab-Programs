@@ -1,1 +1,39 @@
+package Mail.hit.day41;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SendMailFunc {
+
+	public static void main(String[] args) throws Exception{
+		
+//		SendEmail.sendMail("aslam1qqqq@gmail.com");
+//		SendEmail.sendMail("aslam1qqqq@gmail.com");
+//		SendEmail.sendMail("rnbala731@gmail.com");
+//		SendEmail.sendMail("rnbala731@gmail.com");
+//		SendEmail.sendMail("rnbala731@gmail.com");
+//		SendEmail.sendMail("rnbala731@gmail.com");
+		Set<String> email =getAllEmails();
+		
+		for(String string :email) {
+			System.out.println(string);
+		}
+	}
+		
+		private static Set<String>getAllEmails(){
+			Set<String> email =new HashSet<>();
+			
+			email.add("rnbala731@gmail.com");
+			email.add("anbala731@gmail.com");
+			email.add("rnbala731@gmail.com");
+			email.add("rnbala731@gmail.com");
+			email.add("rnbala731@gmail.com");
+			email.add("rnbala731@gmail.com");
+			email.add("rnbala731@gmail.com");
+			return email;
+			SendEmail.sendMail();
+		}
+
+	}
+
 
