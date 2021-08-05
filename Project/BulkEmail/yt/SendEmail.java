@@ -52,14 +52,7 @@ public class SendEmail {
 		    System.out.println("Fetching Username..........."+"\nSent to "+recepientname+"");
 		  
 		message.setSubject("My First Email Program....");
-		message.setText("Dear "+ recepientname +",\n"
-		+"\t Greetings to you. I hope you are at the best of your health."
-		+"\n Welcome to My Github Account - https://github.com/Aslam-web/EmailApplication"
-		+"\n\n\n\n Thanks & Regards"+"\n Mr.M.N Aslam,"
-		+"\n Java Developer Trainer,"
-		+"\n Haaris Infotech Institutions,"
-		+"\n Email: aslam1qqqq@gmail.com,"
-		+"\n Phone: +91 63799 71782." );
+		message.setText("Dear "+ recepientname +",\n");
 		return message;
 		
 	}catch (Exception ex) {
